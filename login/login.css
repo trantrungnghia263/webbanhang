@@ -1,0 +1,81 @@
+body{
+    background: url('img_login/picture_vn.jpg'); /* viết tắt của bgu +tab*/
+    background-size: cover;
+    background-position-y: -50px;
+
+
+}
+#total{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* đưa nội dung trong thẻ ra căn giữa  comment lệnh trong css use shift+ alt+ A*/
+   
+}
+#formLogin{
+    max-width: 400px;
+    background: rgba(0,0,0,0.8);         /* làm mờ khung  */
+    flex-grow: 1;              /* giãn khung ra  */
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 20px 3px rgba(253, 253, 253, 0.8);
+
+}
+.formheading{
+    font-size: 27px;
+    color: rgba(253, 253, 253, 0.8);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+#formgroup{
+    border-bottom: 1px solid #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#formgroup i{
+    color: #f5f5f5;
+    font-size:  14px;
+    padding-right: 5px;
+}
+.forminput{
+    background: transparent; /* transparen màu trong suốt */
+    border: 0;
+    outline: 0;
+   color: rgb(255, 250, 250);
+}
+.forminput::placeholder{
+    color: rgb(252, 248, 248);
+
+}
+.formsubmit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #f5f5f5;
+    width: 100%;
+    padding: 6px 10px;
+    transition: 0.5s ease-in-out;  /* hiệu ứng khi rê chuột vào */
+   margin-top: 25px;
+}
+.formsubmit:hover{
+border: 1px solid #54a0ff;
+}
+#eye{
+    float: right;
+    cursor: pointer;/*thêm hình bàn tay vào cho giao diện */
+}
+/* css cho link đăng kí  */
+#dang_ki a{
+    text-decoration: none;
+    color: white;
+}
+#dang_ki a:hover{
+    color:#54a0ff;
+}
+#dang_ki a:active{
+    color: red;
+}
+span{
+    cursor: pointer;
+
+}

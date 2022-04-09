@@ -1,0 +1,120 @@
+body{
+   
+    background-repeat: repeat-y;
+}
+#title h1{
+    text-align:  center;
+    margin-top: 80px;
+    
+}
+#container{
+    position: relative;
+}
+#left{
+    position: absolute;
+    left: 180px;
+}
+.form_group{
+
+    padding: 10px;
+    
+}
+.form_group p{
+    font-size: 20px;
+}
+.form_group #nhap{
+    width: 200%;
+    padding: 10px;
+   border-radius: 4px;
+}
+span{
+    font-size: 17px;
+}
+#dat_hang{
+    
+    padding: 20px;
+}
+#dat_hang button{
+    width: 225%;
+    padding: 15px ;
+   background-color: brown;
+   color: #fff;
+
+}
+#dat_hang button:hover{
+    background-color: rgb(194, 82, 82);
+    cursor: pointer;
+}
+.right{
+    position: absolute;
+    right: 150px;
+    top: 380%;
+}
+.content{
+    border: 1px solid gray;
+    background-color: rgb(255, 255, 255);
+   width: 430px;
+   height: 65px;
+ /*   margin: 0 auto; */
+   margin-right: -80px;
+}
+.content #tensanpham{
+    font-size: 19px;
+    padding-top: 1px;
+    margin: 0 16px;
+}
+.content #size{
+    font-size: 18px;
+    padding-top: 1px;
+    margin: 0 auto;
+    font-weight: 700;
+   
+}
+.content #soluong{
+    font-size: 18px;
+    padding-top: 1px;
+    margin: 0 auto;
+}
+.content{
+    position: relative;
+}
+#size{
+    position: absolute;
+    top: 29px;
+    left: 17px;
+}
+#soluong{
+    position: absolute;
+    top: 29px;
+    left: 94px;
+    font-weight: 700;
+}
+#tongTien{
+    position: absolute;
+    top: 11px;
+    left: 220px;
+    font-size: 19px;
+    color: rgb(241, 56, 65);
+}
+#value_size{
+position: absolute;
+top: 5px;
+left: 56px;
+font-size: 22px;
+}
+#value_num{
+    position: absolute;
+    top: 7px;
+    left: 170px;
+    font-size: 22px;
+    }
+    #pirce{
+        position: absolute;
+        right: 36px;
+        top: 10px;
+        font-size: 20px;
+    }
+    #content #image{
+        position: absolute;
+        top:200px;
+    }

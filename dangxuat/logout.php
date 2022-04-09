@@ -1,0 +1,14 @@
+<?php
+session_start();
+$user='';
+if(isset($_SESSION['taikhoan'])){
+$user=$_SESSION['taikhoan'];
+}
+$cart=[];
+if(isset($_SESSION['cart'])){
+    $cart=$_SESSION['cart'];
+}
+unset($_SESSION['taikhoan']);
+unset($_SESSION['cart']);
+header("location:../main/main.php");
+?>

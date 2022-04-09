@@ -1,0 +1,155 @@
+
+html{
+   
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding-top: 80px;
+   
+    background-repeat: repeat-y;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.container .picture img{
+    background-color: rgb(135,206,235);
+}
+.container{
+    position: relative;
+}
+.picture{
+    position: relative;
+}
+ #sale{
+    position: absolute;
+    padding: 6px 8px;
+    background-color: brown;
+    color:#fff;
+    border-radius: 6px;
+    top: 10%;
+    left: 7%;
+}
+.pricture_detail{
+
+    margin-left: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.content{
+    position: relative;
+    top: 3%;
+    right: 0%;
+    margin: 0 auto;
+}
+.content #title {
+   width: 500px;
+   word-wrap: break-word;
+   font-size: 25px;
+   font-weight: 600;
+   margin-right: -68px;
+  
+}
+
+.price{
+    display: flex;
+    justify-items: center;
+    margin-left: -39px;
+  margin-top: -47px;
+}
+#pirce_root{
+    margin-left: 39px;
+    font-size: 30px;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+#pirce_sale{
+    margin-left: 26px;
+    font-size: 30px;
+}
+
+
+.mo_ta{
+    word-wrap: break-word;
+    width: 529px;
+}
+.slsp{
+    display: flex;
+    position: relative;
+    
+}
+.block{
+    position: absolute;
+    top: 16px;
+    left: 81px;
+}
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+    height: 24px;
+    border-radius: 4px;
+    
+}
+
+#form_size #size{
+    padding: 3px 4px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+#buy{
+    height: 50px;
+    width: 200px;
+    color: #fff;;
+    background-color: #CD201F;
+    border: 1px solid rgb(104, 101, 101);
+    margin-top: 50px;
+}
+
+#buy:hover{
+    background-color: #f73c3c;
+
+}
+
+
+
+/* #gioHang i{
+    position: absolute;
+    top:68px;
+    right: 166px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#carts{
+    height: 50px;
+    width: 200px;
+    color: #fff;;
+    background-color:#CD201F;
+    border: 1px solid rgb(104, 101, 101);
+    margin-top: 50px;
+}
+#carts:hover{
+    background-color: #f73c3c;
+}  */
+.choose{
+    position: relative; 
+}
+#status {
+    position: absolute;
+    right:208px;
+    top: 41px;
+    display: flex;
+}
+
+#name_status{
+    padding: 3px ;
+    margin-left: 5px;
+}
+
+

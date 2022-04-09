@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(255 254 254);
+    margin: 0;
+    padding: 0;
+}
+.wrapper { 
+    min-height: 100%; /* Fix cho firefox */
+    height: auto !important;
+    height: 100%;
+  }
+.footer{
+    width: 100%;
+    padding: 0px;
+    background-color: rgb(232, 69, 69);
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    top: 0px;   
+}
+.footer{
+    width: 100%;
+}
+.footer .logo p{
+  
+    margin-left: 20px;
+    font-size: 47px;
+    color:rgb(233, 152, 153);
+    
+}
+.info_footer{
+    padding: 20px;
+    position: relative;
+  /*   top: -59px; */
+    bottom: 62px;
+}
+#facebook{
+    position: relative;
+    margin: 20px 60px;
+}
+.info_footer #facebook img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: -79%;
+    left: 5px;
+}
+.info_footer #facebook i{
+    font-size: 40px;
+    color: #fff;
+    z-index: 1;
+}
+.info_footer #facebook a{
+    color: rgb(185, 184, 184);
+    padding: 8px 20px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.info_footer #facebook a:hover{
+    color: rgb(240, 238, 238);
+}
+.info_footer #zalo{
+    position: relative;
+    margin: 20px 60px;
+}
+
+.info_footer #zalo i{
+    font-size: 40px;
+    color: #fff;
+    z-index: 1;
+}
+.info_footer #zalo a{
+    position: absolute;
+    color: rgb(185, 184, 184);
+    padding: 8px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    top: 7px;
+
+}
+.info_footer #zalo a:hover{
+    color: rgb(240, 238, 238);
+}
+.info_footer #address{
+    position: relative;
+    margin: 20px 60px;
+}
+
+.info_footer #address i{
+    font-size: 40px;
+    color: #fff;
+    z-index: 1;
+}
+.info_footer #address a{
+    color: rgb(185, 184, 184);
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 8px;
+    right: -47px;
+    margin-left: 0px;
+
+}
+.info_footer #address a:hover{
+    color: rgb(240, 238, 238);
+}
+ .bottom_right
+{
+ position: relative;  
+ right: 399px;
+ top: 30px;
+ margin: 8px -227px;
+}
+.bottom_right .dich_vu a:hover{
+    color:rgb(240, 238, 238) ;
+}
+.bottom_right .dich_vu a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: rgb(246, 124, 124);
+}
+.dich_vu{
+    position: relative;
+}
+
+.dich_vu  #title{
+    font-size: 22px;
+    color:rgb(240, 238, 238) ;
+    position: absolute;
+    top: 237px;
+    left: -630px;
+    background-color: rgb(216, 136, 136);
+}
+.content_bottom{
+    position: relative;
+}
+.content_bottom #title{
+    position: absolute;
+    top:10px;
+    left: -475px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color:rgb(7, 7, 7) ;
+}

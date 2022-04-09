@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
+
+.header{
+    background-color: #ebebebbe;  
+    position: fixed;
+    top: 0px;
+    left: 0px  ;
+    width: 100%;
+    z-index: 10;
+}
+.container_menu{
+    max-width: 960px;
+    height: 80px;
+    margin: 0px 0px ;
+
+}
+.logo{
+    max-width: 250px;
+    margin: 0px auto;
+    display: flex;
+    padding: 0px 5px;
+    margin-left: 148px;
+    position: relative;
+    margin-top: -5px;
+}
+.img #picture{
+   position: absolute;
+   top: -8px;
+   left: -70px;
+}
+.text p#title{
+    position: absolute;
+    font-size: 30px;
+    color: #111;
+    top: 15px;
+    text-shadow: 2px 2px 2px #cc0000;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 9px;
+}
+nav{
+    display: flex;
+    justify-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+#menu_main{
+   display: flex;
+    list-style: none;
+    right: -434px; /* thông số cũ là -155px */
+    position: relative;
+    margin-top: 24px;
+}
+
+#menu_main li #home{
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    font-size: 22px;
+}
+#menu_main li #store{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    font-size: 20px;
+}
+#menu_main li #phone{
+   position: absolute;
+   top: 6px;
+  left: 0px;
+   font-size: 25px;
+   color: red;
+}
+#menu_main li #user{
+    position: absolute;
+    top: 5px;
+    right: 119px;
+    font-size: 25px;
+}
+#menu_main li a{ 
+    display: block;
+    padding: 10px 30px;
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #1877F2;
+}
+#menu_main li{
+    position: relative;
+}
+#menu_main li:hover{
+    transform: translateY(-5px);
+}
+
+ #menu_main li a:hover{
+    border-bottom: 4px solid rgb(235, 77, 77);
+    transition: 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    width: 70%;
+    color: #CD201F;
+    border-radius: 2px;
+   /*  khi hover chuột vào li thì xuất hiện dấu gạch chân bên dưới thẻ li */
+   
+} 
+#header{
+ position: relative;
+}
+.menu_icon #account{
+position: absolute;
+right: 138px;
+top: 20px;
+font-size: 27px;
+cursor: pointer;
+}
+.menu_icon #account i{
+    padding: 0px 10px;
+}
+#account{
+    position: relative;
+}
+
+ #content{
+     position: absolute;
+    background-color: #f1f3eb6c;
+    border: 1px solid #313031;
+    top:45px;
+    right: 30px;
+    width: 170px;
+    height: 150px;
+    margin-right: -99px;
+    display: none;
+    z-index: 1;
+    border-radius: 0px 0px 8px 8px;
+  
+}
+
+#content #log_out{
+    position: absolute;
+   bottom: 15px;
+   left: 18%;
+   padding: 5px 8px;
+   font-size: 15px;
+   background-color: #fff;
+   border:  1px solid #1877F2;
+   transition:  0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#content #log_out:hover{
+   
+    border:  2px solid #0A66C2;
+    color: #f18286;
+}
+#content #check_don_hang{
+    position: absolute;
+    top: 37px;
+    left: 0px;
+    padding: 0px ;
+  
+}
+#content #check_don_hang a{
+    list-style: none;
+    text-decoration: none;
+    color: #111;
+
+    margin-left: 4px;
+    font-size: 20px;
+   
+}
+#content #check_don_hang a:hover{
+    color: #c40707;
+
+}
+.menu_icon #slsp{
+    position: absolute;
+    top: 6px;
+    right:90px;
+    background-color: #ec3d3d;
+    border-radius: 50%;
+    padding:3px;
+    box-shadow: #f18286 0px 2px 2px 0px;
+    color: white; 
+    z-index: 1;
+}
+.menu_icon #slsp span{
+    color: white;
+    font-size: 15px;
+}
+.menu_icon #cart i{
+    position: absolute;
+    right: 94px;
+    top: 29px;
+    font-size: 25px;
+}
